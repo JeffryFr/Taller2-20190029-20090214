@@ -1,0 +1,88 @@
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    clear: both;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 17px;
+    line-height: 2em;
+    text-align: justify;
+
+}
+
+fieldset{
+    background-color: white;
+    border: none;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+fieldset legend{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+}
+
+fieldset input{
+    background: none;
+    border: none;
+    border-bottom: 1px black solid;
+    padding: 5px;
+    font-size: 15px;
+}
+
+form{
+    margin-left: 80px;
+}
+
+input#Nombre, input#Apellido, input#correo, input#Edad{
+    width: 80%;
+}
+
+input#Fecha, input#submit, select{
+    border: 1px black solid;
+}
+
+input#submit{
+    padding: 10px;
+    float: right;
+    margin: 30px;
+}
+
+select{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+textarea{
+    width: 80%;
+    height: 80px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px black solid;
+}
+
+input#Genero label{
+    margin-right: 30px;
+}

@@ -1,0 +1,30 @@
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    clear: both;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 17px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.video1, .video2{
+    text-align: center;
+    margin: 20px;
+}
+
+.videos{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,104 @@
+
+.galardones, .alumnos, .clases{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    clear: both;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.section{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.section h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.section img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.section p{
+    text-align: justify;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.alumnos p{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.alumnos table{
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alumnos td{
+    background-color: whitesmoke;
+}
+
+.alumnos th{
+    background-color: darkred;
+    color: white;
+}
+
+.alumnos td, .alumnos th{
+    padding: 10px;
+}
+
+.container3{
+    margin-top: 50px;
+}
+
+.info{
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+ol{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+ol > li{
+    font-weight: bold;
+    font-size: 25px
+}
+
+ol ul{
+    margin-left: 50px;
+}
+
+ol ul li{
+    list-style-type: lower-alpha;
+}
