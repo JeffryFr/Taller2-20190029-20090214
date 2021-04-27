@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscripción</title>
+
+        <link rel="stylesheet" href="css/plantilla.css">
+        <link rel="stylesheet" href="css/style2.css">
+    </head>
+    <!-- NAVBAR -->
+    <header>
+        <div class="contenedor">
+            <a href="index.html"><img src="img/logo.jpg" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">El Club</a></li>
+                    <li><a href="#">Actividades</a></li>
+                    <li><a href="#">Torneo</a></li>
+                    <li><a href="inscripcion.html">Inscripción en línea</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- BODY -->
+    <body>
+        <div class="container">
+            <h1>Inscribete</h1>
+            <article class="info">
+                <p>Ya están abiertas las inscripciones para nuestros programas de artes marciales 2021
+                Para niños y niñas desde los 3 años, jóvenes y adultos.<br>
+                Estimula las habilidades físicas, psicológicas, mentales, emocionales y sociales de tu menor 
+                hijo(a) con el programa de Martial Arts School. Una enseñanza enfocada al desarrollo integral 
+                de los pequeños, trabajando su auto control, coordinación y motricidad de manera ágil y divertida. 
+                Además de brindar educación, sólidos valores y buenas costumbres propias de las artes marciales
+                Contamos con amplia experiencia en el trabajo con niños y niñas, diferentes horarios, grupos reducidos 
+                para el mejor aprendizaje y modernas instalaciones.<br>
+                <strong>¡NO ESPERES MÁS!</strong></p>
+            </article>
+            <article class="form">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <form>
+                        <label for="nombre">Nombre: </label><br>
+                        <input type="text" name="nombre" id="Nombre" placeholder="Escriba sus nombres" pattern="[a-zA-ZàáèéìíùúûüÀÁÈÉÌÍÒÓÙÚÜ' ]{2,48}" required><br><br>
+
+                        <label for="apellido">Apellidos: </label><br>
+                        <input type="text" name="apellido" id="Apellido" placeholder="Escriba sus Apellidos" pattern="[a-zA-ZàáèéìíùúûüÀÁÈÉÌÍÒÓÙÚÜ' ]{2,48}" required><br><br>
+
+                        <label for="fecha">Fecha de Nacimiento: </label><br>
+                        <input type="date" name="fecha" id="Fecha" required><br><br>
+
+                        <label for="edad">Edad: </label><br>
+                        <input type="number" name="edad" id="Edad" min="10" pattern="^[0-9]+{2}" required placeholder="Escribe tu edad"><br><br>
+
+                        <label for="genero">Género: </label><br>
+                        <input type="radio" name="genero" id="Genero" required><label for="genero" >Masculino</label>
+                        <input type="radio" name="genero" id="Genero" required><label for="genero" >Femenino</label><br><br>
+
+                        <label for="correo">Correo electrónico: </label><br>
+                        <input type="text" name="correo" id="correo" placeholder="Escriba su Correo electrónico" pattern="[a-zA-Z0-9_.-]*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required><br><br>
+                        
+                        <label for="departamento">Departamento: </label><br>
+                        <select name="departamento" id="Departamento" required>
+                            <option>Ahuachapán</option>
+                            <option>Cabañas</option>
+                            <option>Chalatenango</option>
+                            <option>Cuscatlán</option>
+                            <option>La Libertad</option>
+                            <option>La Paz</option>
+                            <option>La Unión</option>
+                            <option>Morazán</option>
+                            <option>San Miguel</option>
+                            <option>Sonsonate</option>
+                            <option selected>San Salvador</option>
+                            <option>Santa Ana</option>
+                            <option>San Vicente</option>
+                            <option>Usulután</option>
+                        </select><br><br>
+
+                        <label for="direccion">Dirección: </label><br>
+                        <textarea name="direccion" id="Direccion" cols="30" rows="10" placeholder="Escriba su dirección de domicilio" required></textarea><br><br>
+
+                        <input type="submit" id="submit" value="Registrarse">
+                    </form>
+                </fieldset>
+            </article>
+        </div>
+    </body>
+    <!-- FOOTER -->
+    <footer>
+        <img src="img/fb.png" alt="" width="20px">
+        <img src="img/ig.png" alt="" width="20px">
+        <img src="img/tw.png" alt="" width="20px">
+        <img src="img/yt.png" alt="" width="20px">
+        <p>Todos los derechos reservados© | Diseñado por Jeffry y Rodrigo</p>
+    </footer>
+</html>
